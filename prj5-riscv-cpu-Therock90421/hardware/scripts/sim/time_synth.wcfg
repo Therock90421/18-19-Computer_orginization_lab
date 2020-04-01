@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject type="logic" fp_name="/riscv_cpu_test/riscv_cpu_clk">
+      <obj_property name="ElementShortName">riscv_cpu_clk</obj_property>
+      <obj_property name="ObjectShortName">riscv_cpu_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_cpu_test/riscv_cpu_reset">
+      <obj_property name="ElementShortName">riscv_cpu_reset</obj_property>
+      <obj_property name="ObjectShortName">riscv_cpu_reset</obj_property>
+   </wvobject>
+</wave_config>

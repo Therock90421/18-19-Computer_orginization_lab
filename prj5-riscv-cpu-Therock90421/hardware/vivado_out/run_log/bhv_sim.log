@@ -1,0 +1,170 @@
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source /home/cod/prj5-riscv-cpu-Therock90421/hardware/scripts/mk.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'.
+INFO: [Device 21-403] Loading part xczu2eg-sfva625-1-e
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-2] axi_bram_if: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-1] axi_bram_if: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+create_ip: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1652.305 ; gain = 560.336 ; free physical = 1195 ; free virtual = 6473
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_bram_if'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_bram_if'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_bram_if'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_bram_if'...
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/cod/prj5-riscv-cpu-Therock90421/hardware/vivado_out/sim/inst.coe' provided. It will be converted relative to IP Instance files '../../../../../../vivado_out/sim/inst.coe'
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'riscv_bram'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'riscv_bram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'riscv_bram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'riscv_bram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'riscv_bram'...
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'riscv_uart'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'riscv_uart'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'riscv_uart'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'riscv_uart'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'riscv_uart'...
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/opt/Xilinx/Vivado/2017.2/data/xsim/ip/xsim_ip.ini' copied to run dir:'/home/cod/prj5-riscv-cpu-Therock90421/hardware/vivado_prj/prj_5/prj_5.sim/sim_1/behav'
+INFO: [SIM-utils-54] Inspecting design source files for 'riscv_cpu_test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/cod/prj5-riscv-cpu-Therock90421/hardware/vivado_prj/prj_5/prj_5.sim/sim_1/behav/inst.coe'
+INFO: [SIM-utils-43] Exported '/home/cod/prj5-riscv-cpu-Therock90421/hardware/vivado_prj/prj_5/prj_5.sim/sim_1/behav/riscv_bram.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/cod/prj5-riscv-cpu-Therock90421/hardware/vivado_prj/prj_5/prj_5.sim/sim_1/behav'
+xvlog -m64 --relax -prj riscv_cpu_test_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj5-riscv-cpu-Therock90421/hardware/vivado_prj/prj_5/prj_5.srcs/sources_1/ip/riscv_bram/sim/riscv_bram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_bram
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj5-riscv-cpu-Therock90421/hardware/sources/ip_catalog/riscv_core/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj5-riscv-cpu-Therock90421/hardware/sources/ip_catalog/riscv_core/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj5-riscv-cpu-Therock90421/hardware/sources/ip_catalog/riscv_core/riscv_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj5-riscv-cpu-Therock90421/hardware/sources/hdl/riscv_cpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_cpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj5-riscv-cpu-Therock90421/hardware/sources/hdl/riscv_cpu_fpga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_cpu_fpga
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj5-riscv-cpu-Therock90421/hardware/sources/testbench/riscv_cpu_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_cpu_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj5-riscv-cpu-Therock90421/hardware/sources/testbench/uart_recv_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_recv_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj5-riscv-cpu-Therock90421/hardware/vivado_prj/prj_5/prj_5.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+xvhdl -m64 --relax -prj riscv_cpu_test_vhdl.prj
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/cod/prj5-riscv-cpu-Therock90421/hardware/vivado_prj/prj_5/prj_5.srcs/sources_1/ip/riscv_uart/sim/riscv_uart.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity riscv_uart
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/cod/prj5-riscv-cpu-Therock90421/hardware/vivado_prj/prj_5/prj_5.srcs/sources_1/ip/axi_bram_if/sim/axi_bram_if.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity axi_bram_if
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/cod/prj5-riscv-cpu-Therock90421/hardware/vivado_prj/prj_5/prj_5.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2017.2/bin/unwrapped/lnx64.o/xelab -wto 7e71f95b6f3b4ac196ba31e7e3f637fd --debug typical --relax --mt 8 -d RISCV_CPU_FULL_SIMU= -L axi_lite_ipif_v3_0_4 -L lib_pkg_v1_0_2 -L lib_srl_fifo_v1_0_2 -L lib_cdc_v1_0_2 -L axi_uartlite_v2_0_17 -L xil_defaultlib -L blk_mem_gen_v8_3_6 -L axi_bram_ctrl_v4_0_11 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot riscv_cpu_test_behav xil_defaultlib.riscv_cpu_test xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1374] size mismatch in mixed language port association, vhdl port s_axi_araddr [/home/cod/prj5-riscv-cpu-Therock90421/hardware/sources/hdl/riscv_cpu_fpga.v:359]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [/wrk/2017.2/nightly/2017_06_15_1909853/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_3/simulation/blk_mem_gen_v8_3.v:2420]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package axi_bram_ctrl_v4_0_11.axi_bram_ctrl_funcs
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_unsigned
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package lib_pkg_v1_0_2.lib_pkg
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.riscv_cpu
+Compiling module xil_defaultlib.riscv_cpu_top
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.sng_port_arb [\sng_port_arb(c_s_axi_addr_width...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.ua_narrow [\ua_narrow(c_bram_addr_adjust_fa...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.wrap_brst [\wrap_brst(c_axi_addr_width=16,c...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture muxcy_l_v of entity unisim.MUXCY_L [muxcy_l_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture imp of entity axi_bram_ctrl_v4_0_11.SRL_FIFO [\SRL_FIFO(c_data_bits=1,c_depth=...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.wr_chnl [\wr_chnl(c_axi_addr_width=16,c_a...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.rd_chnl [\rd_chnl(c_axi_addr_width=16,c_a...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.full_axi [\full_axi(c_s_axi_addr_width=16,...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.axi_bram_ctrl_top [\axi_bram_ctrl_top(c_bram_addr_w...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0_11.axi_bram_ctrl [\axi_bram_ctrl(c_memory_depth=16...]
+Compiling architecture axi_bram_if_arch of entity xil_defaultlib.axi_bram_if [axi_bram_if_default]
+Compiling module blk_mem_gen_v8_3_6.blk_mem_gen_v8_3_6_output_stage(...
+Compiling module blk_mem_gen_v8_3_6.blk_mem_gen_v8_3_6_output_stage(...
+Compiling module blk_mem_gen_v8_3_6.blk_mem_gen_v8_3_6_softecc_outpu...
+Compiling module blk_mem_gen_v8_3_6.blk_mem_gen_v8_3_6_mem_module(C_...
+Compiling module blk_mem_gen_v8_3_6.blk_mem_gen_v8_3_6(C_FAMILY="zyn...
+Compiling module xil_defaultlib.riscv_bram
+Compiling architecture rtl of entity axi_uartlite_v2_0_17.baudrate [\baudrate(c_ratio=54)\]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_mtbf_stages=4)\]
+Compiling architecture behavioral of entity axi_uartlite_v2_0_17.dynshreg_i_f [\dynshreg_i_f(c_depth=16,c_famil...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_2.cntr_incr_decr_addn_f [\cntr_incr_decr_addn_f(c_size=5,...]
+Compiling architecture behavioral of entity lib_srl_fifo_v1_0_2.dynshreg_f [\dynshreg_f(c_depth=16,c_dwidth=...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_2.srl_fifo_rbu_f [\srl_fifo_rbu_f(c_dwidth=8,c_fam...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_2.srl_fifo_f [\srl_fifo_f(c_dwidth=8,c_family=...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_17.uartlite_rx [\uartlite_rx(c_family="zynquplus...]
+Compiling architecture behavioral of entity axi_uartlite_v2_0_17.dynshreg_i_f [\dynshreg_i_f(c_depth=16,c_init_...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_17.uartlite_tx [\uartlite_tx(c_family="zynquplus...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_17.uartlite_core [\uartlite_core(c_family="zynqupl...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=2,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=4,...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_addr_widt...]
+Compiling architecture rtl of entity axi_uartlite_v2_0_17.axi_uartlite [\axi_uartlite(c_family="zynquplu...]
+Compiling architecture riscv_uart_arch of entity xil_defaultlib.riscv_uart [riscv_uart_default]
+Compiling module xil_defaultlib.riscv_cpu_fpga
+Compiling module xil_defaultlib.riscv_cpu_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot riscv_cpu_test_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source /home/cod/prj5-riscv-cpu-Therock90421/hardware/vivado_prj/prj_5/prj_5.sim/sim_1/behav/xsim.dir/riscv_cpu_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/cod/prj5-riscv-cpu-Therock90421/hardware/vivado_prj/prj_5/prj_5.sim/sim_1/behav/xsim.dir/riscv_cpu_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon May 27 15:44:29 2019. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2017.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon May 27 15:44:29 2019...
+run_program: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1690.500 ; gain = 0.000 ; free physical = 1127 ; free virtual = 6436
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/cod/prj5-riscv-cpu-Therock90421/hardware/vivado_prj/prj_5/prj_5.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "riscv_cpu_test_behav -key {Behavioral:sim_1:Functional:riscv_cpu_test} -tclbatch {/home/cod/prj5-riscv-cpu-Therock90421/hardware/scripts/sim/xsim_run.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source /home/cod/prj5-riscv-cpu-Therock90421/hardware/scripts/sim/xsim_run.tcl
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module riscv_cpu_test.u_riscv_cpu.u_riscv_bram.inst.native_mem_mapped_module.blk_mem_gen_v8_3_6_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'riscv_cpu_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 100us
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1731.035 ; gain = 40.535 ; free physical = 1117 ; free virtual = 6432
+INFO: [Common 17-206] Exiting Vivado at Mon May 27 15:44:32 2019...
