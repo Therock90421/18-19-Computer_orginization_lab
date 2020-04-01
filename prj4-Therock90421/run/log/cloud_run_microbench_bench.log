@@ -1,0 +1,75 @@
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.55
+Try to reboot 172.16.15.55
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating microbench benchmark suite...
+Launching 15pz benchmark...
+[15pz] A* 15-puzzle search: * Passed.
+The msec time is: 231365779
+The memory count is: 5344599
+benchmark finished
+time 2321.89ms
+Hit good trap
+Launching bf benchmark...
+[bf] Brainf**k interpreter: * Passed.
+The msec time is: 18841658
+The memory count is: 194991
+benchmark finished
+time 323.84ms
+Hit good trap
+Launching dinic benchmark...
+[dinic] Dinic's maxflow algorithm: * Passed.
+The msec time is: 721553
+The memory count is: 11163
+benchmark finished
+time 2875.74ms
+Hit good trap
+Launching fib benchmark...
+[fib] Fibonacci number: * Passed.
+The msec time is: 72566424
+The memory count is: 9803
+benchmark finished
+time 728.93ms
+Hit good trap
+Launching md5 benchmark...
+[md5] MD5 digest: * Passed.
+The msec time is: 166588
+The memory count is: 1059
+benchmark finished
+time 103.58ms
+Hit good trap
+Launching qsort benchmark...
+[qsort] Quick sort: * Passed.
+The msec time is: 300670
+The memory count is: 3987
+benchmark finished
+time 489.18ms
+Hit good trap
+Launching queen benchmark...
+[queen] Queen placement: * Passed.
+The msec time is: 2948675
+The memory count is: 41191
+benchmark finished
+time 37.81ms
+Hit good trap
+Launching sieve benchmark...
+[sieve] Eratosthenes sieve: * Passed.
+The msec time is: 487197
+The memory count is: 819
+benchmark finished
+time 13.92ms
+Hit good trap
+Launching ssort benchmark...
+[ssort] Suffix sort: * Passed.
+The msec time is: 21346267
+The memory count is: 30903
+benchmark finished
+time 670.81ms
+Hit good trap
+pass 9 / 9
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2019年 05月 23日 星期四 23:41:27 CST
+------------------------------
