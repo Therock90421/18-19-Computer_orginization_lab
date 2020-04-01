@@ -1,0 +1,50 @@
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source /home/cod/prj3-Therock90421/hardware/scripts/mk.tcl -notrace
+Command: synth_design -rtl -rtl_skip_constraints -rtl_skip_ip -top mips_cpu_top
+Starting synth_design
+Using part: xczu2eg-sfva625-1-e
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1139.961 ; gain = 47.996 ; free physical = 1845 ; free virtual = 6950
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mips_cpu_top' [/home/cod/prj3-Therock90421/hardware/sources/hdl/mips_cpu_top.v:13]
+INFO: [Synth 8-638] synthesizing module 'mips_cpu' [/home/cod/prj3-Therock90421/hardware/sources/ip_catalog/mips_core/mips_cpu.v:3]
+INFO: [Synth 8-638] synthesizing module 'alu' [/home/cod/prj3-Therock90421/hardware/sources/ip_catalog/mips_core/alu.v:5]
+INFO: [Synth 8-256] done synthesizing module 'alu' (1#1) [/home/cod/prj3-Therock90421/hardware/sources/ip_catalog/mips_core/alu.v:5]
+INFO: [Synth 8-638] synthesizing module 'reg_file' [/home/cod/prj3-Therock90421/hardware/sources/ip_catalog/mips_core/reg_file.v:6]
+INFO: [Synth 8-256] done synthesizing module 'reg_file' (2#1) [/home/cod/prj3-Therock90421/hardware/sources/ip_catalog/mips_core/reg_file.v:6]
+INFO: [Synth 8-256] done synthesizing module 'mips_cpu' (3#1) [/home/cod/prj3-Therock90421/hardware/sources/ip_catalog/mips_core/mips_cpu.v:3]
+INFO: [Synth 8-256] done synthesizing module 'mips_cpu_top' (4#1) [/home/cod/prj3-Therock90421/hardware/sources/hdl/mips_cpu_top.v:13]
+WARNING: [Synth 8-3917] design mips_cpu_top has port mips_cpu_axi_if_bready driven by constant 1
+WARNING: [Synth 8-3331] design mips_cpu_top has unconnected port mips_cpu_axi_if_bresp[1]
+WARNING: [Synth 8-3331] design mips_cpu_top has unconnected port mips_cpu_axi_if_bresp[0]
+WARNING: [Synth 8-3331] design mips_cpu_top has unconnected port mips_cpu_axi_if_bvalid
+WARNING: [Synth 8-3331] design mips_cpu_top has unconnected port mips_cpu_axi_if_rresp[1]
+WARNING: [Synth 8-3331] design mips_cpu_top has unconnected port mips_cpu_axi_if_rresp[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1181.461 ; gain = 89.496 ; free physical = 1847 ; free virtual = 6954
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1181.461 ; gain = 89.496 ; free physical = 1849 ; free virtual = 6956
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu2eg-sfva625-1-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1683.383 ; gain = 591.418 ; free physical = 1225 ; free virtual = 6430
+11 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1683.383 ; gain = 591.418 ; free physical = 1225 ; free virtual = 6430
+INFO: [Common 17-206] Exiting Vivado at Fri May 10 13:50:37 2019...

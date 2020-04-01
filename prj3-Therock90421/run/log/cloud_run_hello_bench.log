@@ -1,0 +1,19 @@
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.52
+Try to reboot 172.16.15.52
+Waiting for target reboot...
+Completed FPGA configuration
+Evaluating hello benchmark suite...
+Launching hello benchmark...
+testing 1 2 0000003
+faster and "cheaper"
+deadf00d % DEADF00D
+000000001000000002000000003000000004000000005
+50 50 -50 4294967246
+Hit good trap
+pass 1 / 1
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+2019年 05月 10日 星期五 18:30:27 CST
+------------------------------
