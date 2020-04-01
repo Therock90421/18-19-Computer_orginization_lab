@@ -1,0 +1,77 @@
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source /home/cod/prj2-Therock90421/hardware/scripts/mk.tcl -notrace
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mips_cpu_test' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported '/home/cod/prj2-Therock90421/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav/inst.mem'
+INFO: [SIM-utils-43] Exported '/home/cod/prj2-Therock90421/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav/inst.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/cod/prj2-Therock90421/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav'
+xvlog -m64 --relax -prj mips_cpu_test_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj2-Therock90421/hardware/sources/ip_catalog/mips_core/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj2-Therock90421/hardware/sources/hdl/ideal_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ideal_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj2-Therock90421/hardware/sources/ip_catalog/mips_core/mips_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj2-Therock90421/hardware/sources/ip_catalog/mips_core/reg_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj2-Therock90421/hardware/sources/hdl/mips_cpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_cpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj2-Therock90421/hardware/sources/testbench/mips_cpu_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_cpu_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cod/prj2-Therock90421/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/cod/prj2-Therock90421/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav'
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2017.2/bin/unwrapped/lnx64.o/xelab -wto b42da84f2d5d4deeb4385844df1930e8 --debug typical --relax --mt 8 -d MIPS_CPU_FULL_SIMU= -d USE_MEM_INIT= -d TRACE_CMP= -d TRACE_FILE=/home/cod/prj2-Therock90421/hardware/scripts/../../benchmark/advanced/sim/mul-longlong.mem.log -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mips_cpu_test_behav xil_defaultlib.mips_cpu_test xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.reg_file
+Compiling module xil_defaultlib.mips_cpu
+Compiling module xil_defaultlib.ideal_mem(ADDR_WIDTH=12)
+Compiling module xil_defaultlib.mips_cpu_top
+Compiling module xil_defaultlib.mips_cpu_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mips_cpu_test_behav
+
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source /home/cod/prj2-Therock90421/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav/xsim.dir/mips_cpu_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] '/home/cod/prj2-Therock90421/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav/xsim.dir/mips_cpu_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Apr 15 13:00:12 2019. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2017.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 15 13:00:12 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/cod/prj2-Therock90421/hardware/vivado_prj/prj_2/prj_2.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mips_cpu_test_behav -key {Behavioral:sim_1:Functional:mips_cpu_test} -tclbatch {/home/cod/prj2-Therock90421/hardware/scripts/sim/xsim_run.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.2
+Time resolution is 1 ps
+source /home/cod/prj2-Therock90421/hardware/scripts/sim/xsim_run.tcl
+=================================================
+INFO: comparing trace finish, PASS!
+=================================================
+$finish called at time : 260970 ns : File "/home/cod/prj2-Therock90421/hardware/sources/testbench/mips_cpu_test.v" Line 83
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mips_cpu_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 270us
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1132.523 ; gain = 40.562 ; free physical = 1663 ; free virtual = 7014
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 15 13:00:15 2019...

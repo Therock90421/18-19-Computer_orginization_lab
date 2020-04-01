@@ -1,0 +1,49 @@
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source /home/cod/prj2-Therock90421/hardware/scripts/mk.tcl -notrace
+Command: synth_design -rtl -rtl_skip_constraints -rtl_skip_ip -top mips_cpu_top
+Starting synth_design
+Using part: xczu2eg-sfva625-1-e
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1139.961 ; gain = 47.996 ; free physical = 1307 ; free virtual = 6784
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mips_cpu_top' [/home/cod/prj2-Therock90421/hardware/sources/hdl/mips_cpu_top.v:13]
+	Parameter MEM_ADDR_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'mips_cpu' [/home/cod/prj2-Therock90421/hardware/sources/ip_catalog/mips_core/mips_cpu.v:4]
+INFO: [Synth 8-638] synthesizing module 'alu' [/home/cod/prj2-Therock90421/hardware/sources/ip_catalog/mips_core/alu.v:5]
+INFO: [Synth 8-256] done synthesizing module 'alu' (1#1) [/home/cod/prj2-Therock90421/hardware/sources/ip_catalog/mips_core/alu.v:5]
+INFO: [Synth 8-638] synthesizing module 'reg_file' [/home/cod/prj2-Therock90421/hardware/sources/ip_catalog/mips_core/reg_file.v:6]
+INFO: [Synth 8-256] done synthesizing module 'reg_file' (2#1) [/home/cod/prj2-Therock90421/hardware/sources/ip_catalog/mips_core/reg_file.v:6]
+INFO: [Synth 8-256] done synthesizing module 'mips_cpu' (3#1) [/home/cod/prj2-Therock90421/hardware/sources/ip_catalog/mips_core/mips_cpu.v:4]
+INFO: [Synth 8-638] synthesizing module 'ideal_mem' [/home/cod/prj2-Therock90421/hardware/sources/hdl/ideal_mem.v:14]
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter MEM_WIDTH bound to: 1024 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ideal_mem' (4#1) [/home/cod/prj2-Therock90421/hardware/sources/hdl/ideal_mem.v:14]
+INFO: [Synth 8-256] done synthesizing module 'mips_cpu_top' (5#1) [/home/cod/prj2-Therock90421/hardware/sources/hdl/mips_cpu_top.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1181.461 ; gain = 89.496 ; free physical = 1312 ; free virtual = 6789
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1181.461 ; gain = 89.496 ; free physical = 1313 ; free virtual = 6790
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu2eg-sfva625-1-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1682.383 ; gain = 590.418 ; free physical = 787 ; free virtual = 6264
+13 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1682.383 ; gain = 590.418 ; free physical = 787 ; free virtual = 6264
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 15 02:02:11 2019...
