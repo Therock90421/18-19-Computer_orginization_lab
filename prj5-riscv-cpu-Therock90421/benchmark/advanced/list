@@ -1,0 +1,17 @@
+#01,shuixianhua,125000
+#02,sub-longlong,300
+#03,bit,80
+#04,recursion,10000
+#05,fact,3200
+#06,add-longlong,300
+#07,shift,100
+#08,wanshu,1700
+#09,goldbach,1000
+#10,leap-year,1000
+#11,prime,6600
+#12,mul-longlong,2700
+#13,load-store,100
+#14,to-lower-case,500
+#15,movsx,50
+#16,matrix-mul,50000
+#17,unalign,20
