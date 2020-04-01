@@ -1,0 +1,28 @@
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.51
+Completed FPGA configuration
+/home/cod/prj0-Therock90421/run
+Please input command:
+add 1 2
+Please input command:
+add 4 5
+Please input command:
+state reset
+Please input command:
+state run
+Please input command:
+interval 2
+Please input command:
+state reset
+Please input command:
+state run
+Please input command:
+count
+count: 488397692
+Please input command:
+count
+count: 762401562
+Please input command:
+Stopping xl2tpd (via systemctl): xl2tpd.service.

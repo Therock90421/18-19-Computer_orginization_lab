@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject type="logic" fp_name="/counter_test/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/counter_test/state">
+      <obj_property name="ElementShortName">state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">state[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/counter_test/interval">
+      <obj_property name="ElementShortName">interval[31:0]</obj_property>
+      <obj_property name="ObjectShortName">interval[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/counter_test/state_info">
+      <obj_property name="ElementShortName">state_info[39:0]</obj_property>
+      <obj_property name="ObjectShortName">state_info[39:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/counter_test/counter">
+      <obj_property name="ElementShortName">counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+   </wvobject>
+</wave_config>

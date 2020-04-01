@@ -1,0 +1,41 @@
+make HW_ACT=<action> HW_VAL=<value> vivado_prj
+	<action> : 
+	prj_gen		
+		Create a Vivado project named *prj0* located in the directory of *hardware/vivado_prj*
+		For example : make HW_ACT=prj_gen vivado_prj
+
+	rtl_chk		
+		Check syntax and synthesizability of your RTL source code for *adder.v* and *counter.v* respectively
+		For example : make HW_ACT=rtl_chk vivado_prj
+
+	sch_gen		
+		Generate RTL schematics of *adder* and *counter* modules respecitvely 
+		For example : make HW_ACT=sch_gen vivado_prj
+
+	bhv_sim	
+		Run behavioral simulation for your specified target RTL module within a required duration
+	-- <value> :	
+		"adder <sim_time>"
+		"counter <sim_time>"
+		For example : make HW_ACT=bhv_sim HW_VAL="adder 2" vivado_prj
+
+	wav_chk	
+		Check the waveform of behavioral simulation in Vivado GUI mode
+	-- <value> : 
+		adder
+		counter
+		For example : make HW_ACT=wav_chk HW_VAL=adder vivado_prj
+
+	bit_gen		
+		Generate system.bit in the top-level *hw_plat* directory
+		For example : make HW_ACT=bit_gen vivado_prj
+
+make bit_bin	
+	Generate the binary bitstream file (system.bit.bin) in the top-level *hw_plat* directory
+
+make VPN_USER=<vpn_user_name> VPN_PASSWD=<vpn_passwd> cloud_run
+	Connect to the FPGA cloud for evaluation
+
+make BOARD_IP=<board_ip> local_run
+	Connect to a local FPGA board for evaluation
+

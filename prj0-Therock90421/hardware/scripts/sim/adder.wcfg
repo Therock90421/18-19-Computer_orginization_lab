@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject type="array" fp_name="/adder_test/operand0">
+      <obj_property name="ElementShortName">operand0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">operand0[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_test/operand1">
+      <obj_property name="ElementShortName">operand1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">operand1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_test/result">
+      <obj_property name="ElementShortName">result[7:0]</obj_property>
+      <obj_property name="ObjectShortName">result[7:0]</obj_property>
+   </wvobject>
+</wave_config>
