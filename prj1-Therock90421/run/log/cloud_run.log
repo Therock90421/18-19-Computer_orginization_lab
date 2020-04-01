@@ -1,0 +1,429 @@
+Stopping xl2tpd (via systemctl): xl2tpd.service.
+/usr/bin/poff: No pppd is running.  None stopped.
+Starting xl2tpd (via systemctl): xl2tpd.service.
+Remote target: root@172.16.15.52
+Completed FPGA configuration
+Please input command:
+reg_file_eval
+Test r/w on r0
+Test r/w on r1~r31
+writing 327b23c6 to r1 wen=1
+checking data from r1
+writing 643c9869 to r2 wen=1
+checking data from r2
+writing 66334873 to r3 wen=1
+checking data from r3
+writing 74b0dc51 to r4 wen=1
+checking data from r4
+writing 19495cff to r5 wen=1
+checking data from r5
+writing 2ae8944a to r6 wen=1
+checking data from r6
+writing 625558ec to r7 wen=1
+checking data from r7
+writing 238e1f29 to r8 wen=1
+checking data from r8
+writing 46e87ccd to r9 wen=1
+checking data from r9
+writing 3d1b58ba to r10 wen=1
+checking data from r10
+writing 507ed7ab to r11 wen=1
+checking data from r11
+writing 2eb141f2 to r12 wen=1
+checking data from r12
+writing 41b71efb to r13 wen=1
+checking data from r13
+writing 79e2a9e3 to r14 wen=1
+checking data from r14
+writing 7545e146 to r15 wen=1
+checking data from r15
+writing 515f007c to r16 wen=1
+checking data from r16
+writing 5bd062c2 to r17 wen=1
+checking data from r17
+writing 12200854 to r18 wen=1
+checking data from r18
+writing 4db127f8 to r19 wen=1
+checking data from r19
+writing 0216231b to r20 wen=1
+checking data from r20
+writing 1f16e9e8 to r21 wen=1
+checking data from r21
+writing 1190cde7 to r22 wen=1
+checking data from r22
+writing 66ef438d to r23 wen=1
+checking data from r23
+writing 140e0f76 to r24 wen=1
+checking data from r24
+writing 3352255a to r25 wen=1
+checking data from r25
+writing 109cf92e to r26 wen=1
+checking data from r26
+writing 0ded7263 to r27 wen=1
+checking data from r27
+writing 7fdcc233 to r28 wen=1
+checking data from r28
+writing 1befd79f to r29 wen=1
+checking data from r29
+writing 41a7c4c9 to r30 wen=1
+checking data from r30
+writing 6b68079a to r31 wen=1
+checking data from r31
+Test wen on r1~r31
+writing 4e6afb66 to r1 wen=0
+writing 25e45d32 to r2 wen=0
+writing 519b500d to r3 wen=0
+writing 431bd7b7 to r4 wen=0
+writing 3f2dba31 to r5 wen=0
+writing 7c83e458 to r6 wen=0
+writing 257130a3 to r7 wen=0
+writing 62bbd95a to r8 wen=0
+writing 436c6125 to r9 wen=0
+writing 628c895d to r10 wen=0
+writing 333ab105 to r11 wen=0
+writing 721da317 to r12 wen=0
+writing 2443a858 to r13 wen=0
+writing 2d1d5ae9 to r14 wen=0
+writing 6763845e to r15 wen=0
+writing 75a2a8d4 to r16 wen=0
+writing 08edbdab to r17 wen=0
+writing 79838cb2 to r18 wen=0
+writing 4353d0cd to r19 wen=0
+writing 0b03e0c6 to r20 wen=0
+writing 189a769b to r21 wen=0
+writing 54e49eb4 to r22 wen=0
+writing 71f32454 to r23 wen=0
+writing 2ca88611 to r24 wen=0
+writing 0836c40e to r25 wen=0
+writing 02901d82 to r26 wen=0
+writing 3a95f874 to r27 wen=0
+writing 08138641 to r28 wen=0
+writing 1e7ff521 to r29 wen=0
+writing 7c3dbd3d to r30 wen=0
+writing 737b8ddc to r31 wen=0
+reg_file_eval: Test passed (63 in total)
+Please input command:
+alu_eval
+1/320 passed
+2/320 passed
+3/320 passed
+4/320 passed
+5/320 passed
+6/320 passed
+7/320 passed
+8/320 passed
+9/320 passed
+10/320 passed
+11/320 passed
+12/320 passed
+13/320 passed
+14/320 passed
+15/320 passed
+16/320 passed
+17/320 passed
+18/320 passed
+19/320 passed
+20/320 passed
+21/320 passed
+22/320 passed
+23/320 passed
+24/320 passed
+25/320 passed
+26/320 passed
+27/320 passed
+28/320 passed
+29/320 passed
+30/320 passed
+31/320 passed
+32/320 passed
+33/320 passed
+34/320 passed
+35/320 passed
+36/320 passed
+37/320 passed
+38/320 passed
+39/320 passed
+40/320 passed
+41/320 passed
+42/320 passed
+43/320 passed
+44/320 passed
+45/320 passed
+46/320 passed
+47/320 passed
+48/320 passed
+49/320 passed
+50/320 passed
+51/320 passed
+52/320 passed
+53/320 passed
+54/320 passed
+55/320 passed
+56/320 passed
+57/320 passed
+58/320 passed
+59/320 passed
+60/320 passed
+61/320 passed
+62/320 passed
+63/320 passed
+64/320 passed
+65/320 passed
+66/320 passed
+67/320 passed
+68/320 passed
+69/320 passed
+70/320 passed
+71/320 passed
+72/320 passed
+73/320 passed
+74/320 passed
+75/320 passed
+76/320 passed
+77/320 passed
+78/320 passed
+79/320 passed
+80/320 passed
+81/320 passed
+82/320 passed
+83/320 passed
+84/320 passed
+85/320 passed
+86/320 passed
+87/320 passed
+88/320 passed
+89/320 passed
+90/320 passed
+91/320 passed
+92/320 passed
+93/320 passed
+94/320 passed
+95/320 passed
+96/320 passed
+97/320 passed
+98/320 passed
+99/320 passed
+100/320 passed
+101/320 passed
+102/320 passed
+103/320 passed
+104/320 passed
+105/320 passed
+106/320 passed
+107/320 passed
+108/320 passed
+109/320 passed
+110/320 passed
+111/320 passed
+112/320 passed
+113/320 passed
+114/320 passed
+115/320 passed
+116/320 passed
+117/320 passed
+118/320 passed
+119/320 passed
+120/320 passed
+121/320 passed
+122/320 passed
+123/320 passed
+124/320 passed
+125/320 passed
+126/320 passed
+127/320 passed
+128/320 passed
+129/320 passed
+130/320 passed
+131/320 passed
+132/320 passed
+133/320 passed
+134/320 passed
+135/320 passed
+136/320 passed
+137/320 passed
+138/320 passed
+139/320 passed
+140/320 passed
+141/320 passed
+142/320 passed
+143/320 passed
+144/320 passed
+145/320 passed
+146/320 passed
+147/320 passed
+148/320 passed
+149/320 passed
+150/320 passed
+151/320 passed
+152/320 passed
+153/320 passed
+154/320 passed
+155/320 passed
+156/320 passed
+157/320 passed
+158/320 passed
+159/320 passed
+160/320 passed
+161/320 passed
+162/320 passed
+163/320 passed
+164/320 passed
+165/320 passed
+166/320 passed
+167/320 passed
+168/320 passed
+169/320 passed
+170/320 passed
+171/320 passed
+172/320 passed
+173/320 passed
+174/320 passed
+175/320 passed
+176/320 passed
+177/320 passed
+178/320 passed
+179/320 passed
+180/320 passed
+181/320 passed
+182/320 passed
+183/320 passed
+184/320 passed
+185/320 passed
+186/320 passed
+187/320 passed
+188/320 passed
+189/320 passed
+190/320 passed
+191/320 passed
+192/320 passed
+193/320 passed
+194/320 passed
+195/320 passed
+196/320 passed
+197/320 passed
+198/320 passed
+199/320 passed
+200/320 passed
+201/320 passed
+202/320 passed
+203/320 passed
+204/320 passed
+205/320 passed
+206/320 passed
+207/320 passed
+208/320 passed
+209/320 passed
+210/320 passed
+211/320 passed
+212/320 passed
+213/320 passed
+214/320 passed
+215/320 passed
+216/320 passed
+217/320 passed
+218/320 passed
+219/320 passed
+220/320 passed
+221/320 passed
+222/320 passed
+223/320 passed
+224/320 passed
+225/320 passed
+226/320 passed
+227/320 passed
+228/320 passed
+229/320 passed
+230/320 passed
+231/320 passed
+232/320 passed
+233/320 passed
+234/320 passed
+235/320 passed
+236/320 passed
+237/320 passed
+238/320 passed
+239/320 passed
+240/320 passed
+241/320 passed
+242/320 passed
+243/320 passed
+244/320 passed
+245/320 passed
+246/320 passed
+247/320 passed
+248/320 passed
+249/320 passed
+250/320 passed
+251/320 passed
+252/320 passed
+253/320 passed
+254/320 passed
+255/320 passed
+256/320 passed
+257/320 passed
+258/320 passed
+259/320 passed
+260/320 passed
+261/320 passed
+262/320 passed
+263/320 passed
+264/320 passed
+265/320 passed
+266/320 passed
+267/320 passed
+268/320 passed
+269/320 passed
+270/320 passed
+271/320 passed
+272/320 passed
+273/320 passed
+274/320 passed
+275/320 passed
+276/320 passed
+277/320 passed
+278/320 passed
+279/320 passed
+280/320 passed
+281/320 passed
+282/320 passed
+283/320 passed
+284/320 passed
+285/320 passed
+286/320 passed
+287/320 passed
+288/320 passed
+289/320 passed
+290/320 passed
+291/320 passed
+292/320 passed
+293/320 passed
+294/320 passed
+295/320 passed
+296/320 passed
+297/320 passed
+298/320 passed
+299/320 passed
+300/320 passed
+301/320 passed
+302/320 passed
+303/320 passed
+304/320 passed
+305/320 passed
+306/320 passed
+307/320 passed
+308/320 passed
+309/320 passed
+310/320 passed
+311/320 passed
+312/320 passed
+313/320 passed
+314/320 passed
+315/320 passed
+316/320 passed
+317/320 passed
+318/320 passed
+319/320 passed
+320/320 passed
+alu_eval: Test passed (320 in total)
+Please input command:
+Stopping xl2tpd (via systemctl): xl2tpd.service.
